@@ -125,7 +125,7 @@
 
 <br>
 
-**1차 모델링 후, 피처 엔지니어링을 진행하여 모델 선능 개선** 
+**3. 1차 모델링 후, 피처 엔지니어링을 진행하여 모델 선능 개선** 
 
 ![스크린샷 2024-04-18 오후 4.06.37.png](https://github.com/leeeug-da/Daegu_AccidentSafety/blob/main/DATA/images/ECLO_Log.png)
 
@@ -139,6 +139,6 @@
 
 <br>                                                                               
 
-![스크린샷 2024-04-18 오후 3.46.21.png](https://github.com/leeeug-da/Daegu_AccidentSafety/blob/main/DATA/images/RMSLE_score.png)
+**4. 모델링 결과 (RMSLE score) 상위 2개 모델 선정**
 
-- 모델링 결과 (RMSLE score) 상위 2개 모델 선정
+![스크린샷 2024-04-18 오후 3.46.21.png](https://github.com/leeeug-da/Daegu_AccidentSafety/blob/main/DATA/images/RMSLE_score.png)
