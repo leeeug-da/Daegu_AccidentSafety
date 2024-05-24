@@ -52,20 +52,19 @@
 
 **1. 데이터 전처리**
 
-✔️ 위험 요인을 더 면밀하게 분석 하기 위해 파생변수 생성
-
-✔️ 범주형 데이터 원핫 인코딩 진행 
+- 위험 요인을 더 면밀하게 분석 하기 위해 파생변수 생성
+- 범주형 데이터 원핫 인코딩 진행 
 
 **2. 사고위험도와 관련 있는 요인은 무엇인가?** 
 
 - 행정 구역 정보와 다른 피처들간의 상관관계를 파악한 결과, 유사한 그래프 패턴이 나타남을 파악. 이는 **“행정 구역” 정보 자체에 사고위험도와 관련 있는 두드러지는 특징이 있음**을 시사.
     
     
-    ![현황 분석 1) `행정 구역 ↔ 도로형태 ↔ ECLO` 상관관계 ](https://prod-files-secure.s3.us-west-2.amazonaws.com/1d490d66-8ecc-470a-9883-3f9ecf3a62bb/acec70e1-31db-4694-9a63-53094675b6c8/%E1%84%80%E1%85%A9%E1%86%BC%E1%84%80%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%87%E1%85%A9%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA_%E1%84%83%E1%85%A9%E1%84%85%E1%85%A9.png)
+    ![현황 분석 1) `행정 구역 ↔ 도로형태 ↔ ECLO` 상관관계 ]([공간정보시각화_도로.png](https://github.com/leeeug-da/Daegu_AccidentSafety/blob/main/DATA/images/%EA%B3%B5%EA%B0%84%EC%A0%95%EB%B3%B4%EC%8B%9C%EA%B0%81%ED%99%94_%EB%8F%84%EB%A1%9C.png))
     
     현황 분석 1) `행정 구역 ↔ 도로형태 ↔ ECLO` 상관관계 
     
-    ![현황 분석 2) `행정 구역 ↔ 피해자 연령대 ↔ ECLO` 상관관계](https://prod-files-secure.s3.us-west-2.amazonaws.com/1d490d66-8ecc-470a-9883-3f9ecf3a62bb/b7de65e7-6f11-42a0-8ba3-0e5135628363/%E1%84%80%E1%85%A9%E1%86%BC%E1%84%80%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%87%E1%85%A9%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA.png)
+    ![현황 분석 2) `행정 구역 ↔ 피해자 연령대 ↔ ECLO` 상관관계](https://github.com/leeeug-da/Daegu_AccidentSafety/blob/main/DATA/images/%EA%B3%B5%EA%B0%84%EC%A0%95%EB%B3%B4%EC%8B%9C%EA%B0%81%ED%99%94.png)
     
     현황 분석 2) `행정 구역 ↔ 피해자 연령대 ↔ ECLO` 상관관계
     
